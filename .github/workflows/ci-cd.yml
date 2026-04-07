@@ -33,8 +33,8 @@ jobs:
           pip install pytest
         # Dependencias de aplicación + pytest
 
-      - name: Run unit tests
-        run: pytest -q
+
+
         # Ejecuta tests; si falla, se detiene el pipeline
 
       - name: Run unit tests
